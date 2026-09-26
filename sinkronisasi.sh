@@ -17,7 +17,7 @@ rsync -avz root@192.168.10.14:/data/Temprint/sdm/gjabs /data/duplikat/TEMPRINT/
 rsync -avz root@192.168.110.31:/data1/apps/{databases,jamal,pths,sisjad} /data/duplikat/TEMPRINT/
 
 # === SERVER APLIKASI BUDGET ===
-rsync -avz root@192.168.110.32:/data1/apps/{@CBUDGET,@DBUDGET,@EBudget,@FBUDGET,@GBUDGET,@HBUDGET,@MBUDGET,@NBUDGET,@PBUDGET,@QBUDGET,@TBudget,@UBudget,@VBudget,@wBudget,@TVBudget} /data/duplikat/TEMPO/
+rsync -avz root@192.168.110.32:/data1/apps/{@budget,@CBUDGET,@DBUDGET,@dkBudget,@EBudget,@FBUDGET,@GBUDGET,@HBUDGET,@MBUDGET,@NBUDGET,@PBUDGET,@QBUDGET,@rpBudget,@TBudget,@TVBudget,@UBudget,@VBudget,@wBudget} /data/duplikat/TEMPO/
 
 # === SERVER APLIKASI KEUANGAN ===
 # PJK_SIR perlu perlakuan khusus karena beda nama folder tujuan (#pjk_sir -> PJK_SIR)
